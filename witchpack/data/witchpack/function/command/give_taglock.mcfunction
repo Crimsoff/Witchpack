@@ -1,0 +1,1 @@
+give @p music_disc_creator[item_model="minecraft:glass_bottle",!jukebox_playable,rarity="uncommon",item_name='Taglock',custom_data={Taglock:1b},max_stack_size=64,consumable={consume_seconds:1000000000,animation:"block",has_consume_particles:false}] 1

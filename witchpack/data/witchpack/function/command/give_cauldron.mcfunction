@@ -1,0 +1,1 @@
+give @p witch_spawn_egg[entity_data={id:"minecraft:marker",Tags:["c_wp_cauldron_spawn"]},item_name="Witch's Cauldron",minecraft:item_model="witchpack:cauldron",rarity="uncommon"] 1

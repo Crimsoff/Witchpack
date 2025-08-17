@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:book",
+		"minecraft:glass_bottle"
+	],
+	"result": {
+		"id": "minecraft:written_book",
+		"components": {
+			"minecraft:written_book_content": {"title":"A Witch's Guide to Brewing Ed. 1","author":"Crimsoff","generation":0,"pages":["To get started, you need a Witch’s Cauldron. To get a Witch’s Cauldron, you need to throw some anointing paste into a regular cauldron. The paste can be crafted using the four vanilla seed types, or the four vanilla fungus types.",{"text":"To function, a Witch’s Cauldron must be filled with water and heated by a fire. Cauldrons have a limited number of effects and modifiers they can use, determined by their capacity. The capacity of a cauldron starts at 1, increased by adding mandrake roots or nether wart.\n"},{"text":"Each new effect uses up capacity. Glowstone can increase the power of the previous effect but uses up capacity. Redstone can increase the duration of an effect. Not every effect can have its power or duration increased.\n"},{"text":"The color of a cauldron’s brew can be changed any time with dye. Gunpowder turns a potion into its splash variant. Clay will absorb the potion inside, clearing the cauldron. Otherwise, a bottle can be used to collect the brew.\n\n"},{"text":"Sugar gives speed\nBlaze powder gives strength\nGolden carrots give night vision\nGlass gives invisibility\nRabbit’s foot gives luck\nRabbit hide gives jump boost\nMagma cream gives fire resistance\nString gives slowness\n"},{"text":"Pufferfish gives water breathing\nGlistering melon slices give instant health\nPointed dripstone gives instant damage\nSpider eyes give poison\nGhast tears give regeneration\nFermented spider eyes give weakness\nPhantom membranes give slow falling\n"},{"text":"Breeze rods give wind charged\nCobwebs give weaving\nSlime blocks give oozing\nStone gives infested\nWither roses give wither\nApples give absorption\nClosed eye blossoms give blindness\nOpen eye blossoms give nausea\nPopped chorus fruits give levitation\n"},{"text":"Dandelions give saturation\nSculk gives darkness\nTropical fish give dolphin’s grace\nGold ingots give haste\nTurtle scute gives resistance\nArmadillo scute gives health boost\nGlowstone blocks give glowing\n"}]}
+		},
+		"count": 1
+	}
+}

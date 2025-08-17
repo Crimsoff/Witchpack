@@ -1,0 +1,3 @@
+execute if score @s c_wp_branch_protection matches ..119 at @s if block ~ ~-0.5 ~ #minecraft:dirt run scoreboard players add @s c_wp_branch_protection 1
+execute if score @s c_wp_branch_protection matches ..119 at @s if block ~ ~-0.5 ~ farmland run scoreboard players add @s c_wp_branch_protection 1
+execute if score @s c_wp_branch_protection matches ..119 at @s if block ~ ~-0.5 ~ farmland unless block ~ ~-1 ~ farmland[moisture=0] run scoreboard players add @s c_wp_branch_protection 1

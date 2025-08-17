@@ -1,0 +1,11 @@
+execute if data entity @e[type=minecraft:marker,limit=1,sort=nearest,tag=c_wp_chalk_cleaner] data.Pos.dimension if score @s c_wp_chalk_otherworld matches 12..35 as @e[type=!#witchpack:immovable,tag=!c_wp_immovable,distance=..2.25] run function witchpack:rituals/warp/teleport_to_location_macro_d with entity @e[type=marker,tag=c_wp_chalk_cleaner,limit=1,sort=nearest] data.Pos
+execute if data entity @e[type=minecraft:marker,limit=1,sort=nearest,tag=c_wp_chalk_cleaner] data.Pos.dimension if score @s c_wp_chalk_otherworld matches 36..71 as @e[type=!#witchpack:immovable,tag=!c_wp_immovable,distance=..4.5] run function witchpack:rituals/warp/teleport_to_location_macro_d with entity @e[type=marker,tag=c_wp_chalk_cleaner,limit=1,sort=nearest] data.Pos
+execute if data entity @e[type=minecraft:marker,limit=1,sort=nearest,tag=c_wp_chalk_cleaner] data.Pos.dimension if score @s c_wp_chalk_otherworld matches 72.. as @e[type=!#witchpack:immovable,tag=!c_wp_immovable,distance=..6.75] run function witchpack:rituals/warp/teleport_to_location_macro_d with entity @e[type=marker,tag=c_wp_chalk_cleaner,limit=1,sort=nearest] data.Pos
+
+execute unless data entity @e[type=minecraft:marker,limit=1,sort=nearest,tag=c_wp_chalk_cleaner] data.Pos.dimension if score @s c_wp_chalk_otherworld matches 12..35 as @e[type=!#witchpack:immovable,tag=!c_wp_immovable,distance=..2.25] run function witchpack:rituals/warp/teleport_to_location_macro with entity @e[type=marker,tag=c_wp_chalk_cleaner,limit=1,sort=nearest] data.Pos
+execute unless data entity @e[type=minecraft:marker,limit=1,sort=nearest,tag=c_wp_chalk_cleaner] data.Pos.dimension if score @s c_wp_chalk_otherworld matches 36..71 as @e[type=!#witchpack:immovable,tag=!c_wp_immovable,distance=..4.5] run function witchpack:rituals/warp/teleport_to_location_macro with entity @e[type=marker,tag=c_wp_chalk_cleaner,limit=1,sort=nearest] data.Pos
+execute unless data entity @e[type=minecraft:marker,limit=1,sort=nearest,tag=c_wp_chalk_cleaner] data.Pos.dimension if score @s c_wp_chalk_otherworld matches 72.. as @e[type=!#witchpack:immovable,tag=!c_wp_immovable,distance=..6.75] run function witchpack:rituals/warp/teleport_to_location_macro with entity @e[type=marker,tag=c_wp_chalk_cleaner,limit=1,sort=nearest] data.Pos
+
+
+tag @s remove c_wp_ritual_teleport_to_location
+tag @s remove c_wp_ritual_active

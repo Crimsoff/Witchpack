@@ -1,0 +1,1 @@
+give @p minecraft:witch_spawn_egg[entity_data={id:"minecraft:marker",Tags:["c_wp_broom_init"]},item_name='Enchanted Broom',rarity="rare",item_model="witchpack:broom",minecraft:enchantment_glint_override=true,minecraft:max_stack_size=1]

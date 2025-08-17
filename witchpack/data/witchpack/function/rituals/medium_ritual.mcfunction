@@ -1,0 +1,17 @@
+execute unless entity @s[tag=c_wp_ritual_active] if entity @a[distance=..6.75,level=10..] if entity @e[type=item,nbt={Item:{id:"minecraft:phantom_membrane"}},distance=..4.5,tag=!c_wp_lower_count] if entity @e[type=item,nbt={Item:{id:"minecraft:brush",components:{"minecraft:custom_data":{Broom:1b}}}},distance=..4.5,tag=!c_wp_lower_count] run return run function witchpack:rituals/infusion/broom
+
+execute unless entity @s[tag=c_wp_ritual_active] if score @s c_wp_chalk_otherworld matches 12.. if entity @a[distance=..6.75,level=5..] if entity @e[type=item,nbt={Item:{id:"minecraft:ender_pearl"}},distance=..4.5,tag=!c_wp_lower_count] if entity @e[type=item,nbt={Item:{id:"minecraft:flint"}},distance=..4.5,tag=!c_wp_lower_count] run return run function witchpack:rituals/infusion/waystone
+
+execute unless entity @s[tag=c_wp_ritual_active] if entity @a[distance=..6.75,level=1..] if entity @e[type=item,nbt={Item:{id:"minecraft:shield"}},distance=..4.5,tag=!c_wp_lower_count] if entity @e[type=item,nbt={Item:{id:"minecraft:diamond"}},distance=..4.5,tag=!c_wp_lower_count] run return run function witchpack:rituals/active_rituals/start_sanctuary_medium
+
+execute unless entity @s[tag=c_wp_ritual_active] if entity @a[distance=..6.75,level=10..] if entity @e[type=item,nbt={Item:{id:"minecraft:lightning_rod"}},distance=..4.5,tag=!c_wp_lower_count] if entity @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{TaglockFilled:1b}}}},distance=..4.5,tag=!c_wp_lower_count] run return run function witchpack:rituals/summon/smite_entity
+
+execute unless entity @s[tag=c_wp_ritual_active] if entity @a[distance=..6.75,level=10..] if entity @e[type=item,nbt={Item:{id:"minecraft:lightning_rod"}},distance=..4.5,tag=!c_wp_lower_count] if entity @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{LocationFilled:1b}}}},distance=..4.5,tag=!c_wp_lower_count] run return run function witchpack:rituals/summon/smite_location
+
+execute unless entity @s[tag=c_wp_ritual_active] if entity @a[distance=..6.75,level=5..] if entity @e[type=item,nbt={Item:{id:"minecraft:lightning_rod"}},distance=..4.5,tag=!c_wp_lower_count] run return run function witchpack:rituals/summon/lightning
+
+execute unless entity @s[tag=c_wp_ritual_active] if score @s c_wp_chalk_otherworld matches 12.. if entity @a[distance=..6.75,level=5..] if entity @e[type=item,nbt={Item:{id:"minecraft:ender_pearl"}},distance=..4.5,tag=!c_wp_lower_count] if entity @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{TaglockFilled:1b}}}},distance=..4.5,tag=!c_wp_lower_count] at @s run function witchpack:rituals/warp/teleportentity
+
+execute unless entity @s[tag=c_wp_ritual_active] if score @s c_wp_chalk_otherworld matches 12.. if entity @a[distance=..6.75,level=5..] if entity @e[type=item,nbt={Item:{id:"minecraft:chorus_fruit"}},distance=..4.5,tag=!c_wp_lower_count] if entity @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{TaglockFilled:1b}}}},distance=..4.5,tag=!c_wp_lower_count] at @s run function witchpack:rituals/warp/teleport_to_entity
+
+execute unless entity @s[tag=c_wp_ritual_active] if score @s c_wp_chalk_otherworld matches 12.. if entity @a[distance=..6.75,level=5..] if entity @e[type=item,nbt={Item:{id:"minecraft:ender_pearl"}},distance=..4.5,tag=!c_wp_lower_count] if entity @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{LocationFilled:1b}}}},distance=..4.5,tag=!c_wp_lower_count] at @s run function witchpack:rituals/warp/teleport_to_location

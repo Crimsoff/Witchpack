@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bone_meal",
+    [
+      "minecraft:rose_bush",
+      "minecraft:wither_rose",
+      "minecraft:prismarine_shard",
+      "minecraft:arrow",
+      "minecraft:pointed_dripstone"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:witch_spawn_egg",
+    "components": {
+      "minecraft:item_name": "Mutandis Spinae",
+      "minecraft:item_model": "witchpack:mutandis_spinae",
+      "minecraft:entity_data": {
+        "id": "minecraft:marker",
+        "Tags": [
+          "c_wp_thorns_init"
+        ]
+      },
+      "minecraft:lore": [
+        {"color":"white","italic":false,"text":"Use on a flower to give it thorns."},
+        {"color":"white","italic":false,"text":"Thorns will capture the DNA of one entity for taglocking."}
+      ],
+      "minecraft:rarity": "uncommon"
+    },
+    "count": 1
+  }
+}

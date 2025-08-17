@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "property": "minecraft:custom_model_data",
+    "model": "witchpack:item/cauldron",
+    "tints": [{"type": "custom_model_data",
+        "index": 0,
+        "default" : 16777215}]
+    }
+}

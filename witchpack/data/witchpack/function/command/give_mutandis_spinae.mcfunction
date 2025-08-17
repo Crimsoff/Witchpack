@@ -1,0 +1,1 @@
+give @p witch_spawn_egg[entity_data={id:"minecraft:marker",Tags:["c_wp_thorns_init"]},item_name='Mutandis Spinae',item_model="witchpack:mutandis_spinae",rarity="uncommon",lore=[{"color":"white","italic":false,"text":"Use on a flower to give it thorns."},{"color":"white","italic":false,"text":"Thorns will capture the DNA of one entity for taglocking."}]] 1

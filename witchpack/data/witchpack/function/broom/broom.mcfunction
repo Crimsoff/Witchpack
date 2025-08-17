@@ -1,0 +1,11 @@
+execute if predicate witchpack:forwards unless predicate witchpack:strafeleft unless predicate witchpack:straferight unless predicate witchpack:backwards positioned ~ ~0.6 ~ if block ^ ^-0.1 ^1 air on vehicle run tp @s ^ ^ ^0.4 ~ 0
+
+execute unless predicate witchpack:forwards if predicate witchpack:strafeleft unless predicate witchpack:straferight unless predicate witchpack:backwards positioned ~ ~0.6 ~ if block ^0.5 ^ ^ air on vehicle run tp @s ^0.3 ^ ^ ~ 0
+execute if predicate witchpack:forwards if predicate witchpack:strafeleft unless predicate witchpack:straferight unless predicate witchpack:backwards positioned ~ ~0.6 ~ if block ^0.5 ^ ^ air if block ^ ^-0.1 ^1 air if block ^0.5 ^-0.1 ^1 air on vehicle run tp @s ^0.2121 ^ ^0.2828 ~ 0
+execute unless predicate witchpack:forwards if predicate witchpack:strafeleft unless predicate witchpack:straferight if predicate witchpack:backwards positioned ~ ~0.6 ~ if block ^0.5 ^ ^ air if block ^ ^-0.1 ^-1 air if block ^0.5 ^-0.1 ^-1 air on vehicle run tp @s ^0.2121 ^ ^-0.2121 ~ 0
+
+execute unless predicate witchpack:forwards unless predicate witchpack:strafeleft if predicate witchpack:straferight unless predicate witchpack:backwards positioned ~ ~0.6 ~ if block ^-0.5 ^ ^ air on vehicle run tp @s ^-0.3 ^ ^ ~ 0
+execute if predicate witchpack:forwards unless predicate witchpack:strafeleft if predicate witchpack:straferight unless predicate witchpack:backwards positioned ~ ~0.6 ~ if block ^-0.5 ^ ^ air if block ^ ^-0.1 ^1 air if block ^-0.5 ^-0.1 ^1 air on vehicle run tp @s ^-0.2121 ^ ^0.2828 ~ 0
+execute unless predicate witchpack:forwards unless predicate witchpack:strafeleft if predicate witchpack:straferight if predicate witchpack:backwards positioned ~ ~0.6 ~ if block ^-0.5 ^ ^ air if block ^ ^-0.1 ^-1 air if block ^-0.5 ^-0.1 ^-1 air on vehicle run tp @s ^-0.2121 ^ ^-0.2121 ~ 0
+
+execute unless predicate witchpack:forwards unless predicate witchpack:strafeleft unless predicate witchpack:straferight if predicate witchpack:backwards positioned ~ ~0.6 ~ if block ^ ^-0.1 ^-1 air on vehicle run tp @s ^ ^ ^-0.3 ~ 0

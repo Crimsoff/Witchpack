@@ -1,0 +1,1 @@
+give @p painting[entity_data={id:"minecraft:painting",variant:"witchpack:open_mirror",Tags:["c_wp_mirror_e_init"]},item_name='Unbounded Mirror',lore=[{"color":"white","italic":false,"text":"Look deep into the void."},{"color":"white","italic":false,"text":"Unbound mirrors must be bound to an overworld position."}],rarity="epic"] 1

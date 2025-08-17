@@ -1,0 +1,38 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+	"index":0,
+    "entries":[
+      {"threshold": 0,
+      "model": {
+    "type": "minecraft:model",
+    "model": "witchpack:item/mandrake_crop/mandrake_stage0"
+  }},
+      {"threshold": 1,
+      "model": {
+    "type": "minecraft:model",
+    "model": "witchpack:item/mandrake_crop/mandrake_stage1"
+  }},
+      {"threshold": 2,
+      "model": {
+    "type": "minecraft:model",
+    "model": "witchpack:item/mandrake_crop/mandrake_stage2"
+  }},
+      {"threshold": 3,
+      "model": {
+    "type": "minecraft:model",
+    "model": "witchpack:item/mandrake_crop/mandrake_stage3"
+  }},
+      {"threshold": 4,
+      "model": {
+    "type": "minecraft:model",
+    "model": "witchpack:item/mandrake_crop/mandrake_stage4"
+  }}
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "witchpack:item/mandrake_crop/mandrake_stage0"
+    }
+  }
+}

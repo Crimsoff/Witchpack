@@ -1,0 +1,1 @@
+$data modify storage witchpack:exitmirror dimension set from storage witchpack:storeddimension $(UUID0).$(UUID1).$(UUID2).$(UUID3)

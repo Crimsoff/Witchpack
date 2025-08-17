@@ -1,0 +1,47 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"wp_cauldron": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/wp_cauldron/cauldron.json",
+				"assets/animated_java/items/blueprint/wp_cauldron/water.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/wp_cauldron/cauldron.json",
+				"assets/animated_java/models/blueprint/wp_cauldron/water.json",
+				"assets/animated_java/models/empty.json"
+			]
+		},
+		"wp_mandrake": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/wp_mandrake/body.json",
+				"assets/animated_java/items/blueprint/wp_mandrake/leafe.json",
+				"assets/animated_java/items/blueprint/wp_mandrake/leafn.json",
+				"assets/animated_java/items/blueprint/wp_mandrake/leafs.json",
+				"assets/animated_java/items/blueprint/wp_mandrake/leafw.json",
+				"assets/animated_java/items/blueprint/wp_mandrake/left.json",
+				"assets/animated_java/items/blueprint/wp_mandrake/neck.json",
+				"assets/animated_java/items/blueprint/wp_mandrake/right.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/body.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/damaged/body.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/damaged/leafe.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/damaged/leafn.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/damaged/leafs.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/damaged/leafw.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/damaged/left.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/damaged/neck.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/damaged/right.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/leafe.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/leafn.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/leafs.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/leafw.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/left.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/neck.json",
+				"assets/animated_java/models/blueprint/wp_mandrake/right.json",
+				"assets/animated_java/models/empty.json"
+			]
+		}
+	}
+}

@@ -1,0 +1,344 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries":[
+      {"threshold": 0,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_0",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 1,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_1",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 2,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_2",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 3,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_3",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 4,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_4",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 5,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_5",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 6,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_6",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 7,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_7",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 8,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_8",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 9,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_9",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 10,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_10",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 11,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_11",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 12,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_12",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 13,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_13",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 14,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_14",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 15,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_15",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 16,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_16",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 17,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_17",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 18,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_18",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 19,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_19",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 20,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_20",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 21,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_21",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 22,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_22",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 23,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_23",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 24,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_24",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 25,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_25",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 26,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_26",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 27,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_27",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 28,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_28",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 29,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_29",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 30,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_30",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 31,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_31",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 32,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_32",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 33,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_33",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 34,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_34",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 35,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_35",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 36,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_36",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 37,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_37",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 38,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_38",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 39,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_39",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }},
+      {"threshold": 40,
+      "model": {
+        "type": "minecraft:model",
+        "model": "witchpack:item/illager_runes/illagerrune_40",
+        "tints": [{"type": "custom_model_data",
+                  "index": 0,
+                  "default" : 16777215}]
+      }}
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "witchpack:item/illager_runes/illagerrune_0",
+      "tints": [{"type": "custom_model_data",
+                "index": 0,
+                "default" : 16777215}]
+    }
+  }
+}

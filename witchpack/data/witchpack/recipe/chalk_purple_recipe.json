@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		[
+			"minecraft:calcite"
+		],
+		[
+			"minecraft:slime_ball",
+			"minecraft:magma_cream",
+			"minecraft:honey_bottle"
+		],
+		[
+			"minecraft:glow_ink_sac"
+		],
+		[
+			"minecraft:chorus_fruit"
+		]
+	],
+	"result": {
+		"id": "minecraft:glow_item_frame",
+		"components": {
+			"minecraft:entity_data": {
+				"id": "minecraft:glow_item_frame",
+				"Silent": true,
+				"Tags": [
+					"c_wp_chalk_init",
+					"c_wp_chalk_purple"
+				],
+				"Item": {
+					"id": "minecraft:glow_item_frame",
+					"components": {
+						"minecraft:item_model": "witchpack:illager_rune",
+						"minecraft:item_name": "Otherworld Rune",
+						"minecraft:custom_model_data": {
+							"floats": [
+								2
+							],
+							"colors": [
+								8061183
+							]
+						}
+					},
+					"count": 1
+				},
+				"ItemDropChance": 0,
+				"Invisible": true
+			},
+			"minecraft:item_model": "witchpack:chalk",
+			"minecraft:item_name": "Otherworld Chalk",
+			"minecraft:custom_model_data": {
+				"colors": [
+					8061183
+				]
+			},
+			"minecraft:rarity": "rare"
+		},
+		"count": 64
+	}
+}

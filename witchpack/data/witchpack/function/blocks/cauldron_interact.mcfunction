@@ -1,0 +1,12 @@
+execute store result score @s c_wp_i_UUID0 run data get entity @s interaction.player[0]
+execute store result score @s c_wp_i_UUID1 run data get entity @s interaction.player[1]
+execute store result score @s c_wp_i_UUID2 run data get entity @s interaction.player[2]
+execute store result score @s c_wp_i_UUID3 run data get entity @s interaction.player[3]
+
+execute on vehicle if entity @s[tag=c_wp_cauldron_full,tag=c_wp_cauldron_water] as @a[tag=!c_wp_cauldron_interacted] if score @s c_wp_UUID0 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID0 if score @s c_wp_UUID1 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID1 if score @s c_wp_UUID2 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID2 if score @s c_wp_UUID3 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID3 run function witchpack:blocks/cauldron_empty
+execute on vehicle if entity @s[tag=!c_wp_cauldron_full] as @a[tag=!c_wp_cauldron_interacted] if score @s c_wp_UUID0 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID0 if score @s c_wp_UUID1 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID1 if score @s c_wp_UUID2 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID2 if score @s c_wp_UUID3 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID3 run function witchpack:blocks/cauldron_fill
+execute on vehicle if entity @s[tag=c_wp_cauldron_full,tag=!c_wp_cauldron_water] as @a[tag=!c_wp_cauldron_interacted] if score @s c_wp_UUID0 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID0 if score @s c_wp_UUID1 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID1 if score @s c_wp_UUID2 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID2 if score @s c_wp_UUID3 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID3 run function witchpack:blocks/cauldron_collect
+
+execute as @a if score @s c_wp_UUID0 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID0 if score @s c_wp_UUID1 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID1 if score @s c_wp_UUID2 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID2 if score @s c_wp_UUID3 = @n[type=interaction,tag=c_wp_cauldron_interaction] c_wp_i_UUID3 run tag @s remove c_wp_cauldron_interacted
+
+data remove entity @s interaction

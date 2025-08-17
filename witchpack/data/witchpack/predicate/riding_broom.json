@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "vehicle": {
+      "type": "minecraft:item_display",
+      "nbt": "{Tags:[c_wp_broom_display]}"
+    }
+  }
+}

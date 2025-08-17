@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:wheat_seeds",
+      "minecraft:red_mushroom"
+    ],
+    [
+      "minecraft:beetroot_seeds",
+      "minecraft:brown_mushroom"
+    ],
+    [
+      "minecraft:melon_seeds",
+      "minecraft:crimson_fungus"
+    ],
+    [
+      "minecraft:pumpkin_seeds",
+      "minecraft:warped_fungus"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:music_disc_creator",
+    "components": {
+      "!minecraft:jukebox_playable": {},
+      "minecraft:custom_data": {
+        "MakeCauldron": true
+      },
+      "minecraft:item_model": "minecraft:cyan_dye",
+      "minecraft:item_name": "Anointing Paste",
+      "minecraft:rarity": "uncommon"
+    },
+    "count": 1
+  }
+}

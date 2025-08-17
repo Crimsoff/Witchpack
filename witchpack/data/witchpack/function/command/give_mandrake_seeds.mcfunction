@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:witch_spawn_egg",count:1,components:{"minecraft:entity_data":{id:"minecraft:marker",Tags:["c_wp_mandrake_seeds_init"]},"minecraft:item_name":'Mandrake Seeds',"minecraft:item_model":"witchpack:mandrake_seeds"}}}

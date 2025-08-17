@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:count",
+    "normalize": true,
+    "entries":[
+      {"threshold": 0.75,
+      "model": {
+    "type": "minecraft:model",
+    "model": "witchpack:item/chalk/chalk0",
+    "tints": [{"type": "custom_model_data",
+              "index": 0,
+              "default" : 16777215}]
+  }},
+      {"threshold": 0.5,
+      "model": {
+    "type": "minecraft:model",
+    "model": "witchpack:item/chalk/chalk1",
+    "tints": [{"type": "custom_model_data",
+              "index": 0,
+              "default" : 16777215}]
+  }},
+      {"threshold": 0.25,
+      "model": {
+    "type": "minecraft:model",
+    "model": "witchpack:item/chalk/chalk2",
+    "tints": [{"type": "custom_model_data",
+              "index": 0,
+              "default" : 16777215}]
+  }}
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "witchpack:item/chalk/chalk3",
+      "tints": [{"type": "custom_model_data",
+                "index": 0,
+                "default" : 16777215}]
+    }
+  }
+}

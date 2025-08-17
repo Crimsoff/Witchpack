@@ -1,0 +1,1 @@
+give @p witch_spawn_egg[entity_data={id:"minecraft:marker",Tags:["c_wp_mandrake_init"]},item_name='Mandrake Spawn Egg'] 1

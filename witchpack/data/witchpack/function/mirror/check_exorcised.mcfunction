@@ -1,0 +1,6 @@
+execute unless entity @e[type=minecraft:painting,sort=nearest,distance=..0.1] run data modify entity @n[type=item,nbt={Item:{id:"minecraft:painting"}},distance=..1] Item.components set value {"entity_data":{id:"minecraft:painting",variant:"witchpack:open_mirror",Tags:["c_wp_mirror_e_init"]},"item_name":'Bounded Mirror',"minecraft:rarity":"epic","lore":[{"color":"white","italic":false,"text":"Look deep into the void."}]}
+execute unless entity @e[type=minecraft:painting,sort=nearest,distance=..0.1] run data modify entity @n[type=item,nbt={Item:{id:"minecraft:painting"}},distance=..1] Item.components."minecraft:entity_data".Motion set from entity @s Motion
+execute unless entity @e[type=minecraft:painting,sort=nearest,distance=..0.1] store result entity @n[type=item,nbt={Item:{id:"minecraft:painting"}},distance=..1] Item.components."minecraft:entity_data".data.mirrorX int 1 run data get entity @s data.mirrorX
+execute unless entity @e[type=minecraft:painting,sort=nearest,distance=..0.1] store result entity @n[type=item,nbt={Item:{id:"minecraft:painting"}},distance=..1] Item.components."minecraft:entity_data".data.mirrorZ int 1 run data get entity @s data.mirrorZ
+
+execute unless entity @e[type=minecraft:painting,sort=nearest,distance=..0.1] run kill @s

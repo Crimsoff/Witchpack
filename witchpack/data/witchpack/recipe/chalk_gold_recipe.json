@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		[
+			"minecraft:calcite"
+		],
+		[
+			"minecraft:slime_ball",
+			"minecraft:magma_cream",
+			"minecraft:honey_bottle"
+		],
+		[
+			"minecraft:glow_ink_sac"
+		],
+		[
+			"minecraft:gold_ingot"
+		]
+	],
+	"result": {
+		"id": "minecraft:glow_item_frame",
+		"components": {
+			"minecraft:entity_data": {
+				"id": "minecraft:glow_item_frame",
+				"Silent": true,
+				"Tags": [
+					"c_wp_chalk_init",
+					"c_wp_chalk_gold"
+				],
+				"Item": {
+					"id": "minecraft:glow_item_frame",
+					"components": {
+						"minecraft:item_model": "witchpack:illager_rune",
+						"minecraft:item_name": "Golden Rune",
+						"minecraft:custom_model_data": {
+							"floats": [
+								2
+							],
+							"colors": [
+								16766720
+							]
+						}
+					},
+					"count": 1
+				},
+				"ItemDropChance": 0,
+				"Invisible": true
+			},
+			"minecraft:item_model": "witchpack:chalk",
+			"minecraft:item_name": "Golden Chalk",
+			"minecraft:custom_model_data": {
+				"colors": [
+					16766720
+				]
+			},
+			"minecraft:rarity": "rare"
+		},
+		"count": 64
+	}
+}

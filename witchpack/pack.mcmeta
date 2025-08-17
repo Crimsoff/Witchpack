@@ -1,0 +1,18 @@
+{
+	"pack": {
+		"description": "By Crimsoff",
+		"pack_format": 71,
+		"supported_formats": [
+			71,
+			81
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "animated_java",
+				"formats": 71
+			}
+		]
+	}
+}

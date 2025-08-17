@@ -1,0 +1,13 @@
+{
+    "values": [
+      "minecraft:marker",
+      "minecraft:item_frame",
+      "minecraft:glow_item_frame",
+      "minecraft:item_display",
+      "minecraft:block_display",
+      "minecraft:area_effect_cloud",
+      "minecraft:interaction",
+      "minecraft:painting",
+      "minecraft:leash_knot"
+    ]
+  }

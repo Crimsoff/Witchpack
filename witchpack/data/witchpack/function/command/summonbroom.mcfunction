@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["c_wp_broom_init"]}

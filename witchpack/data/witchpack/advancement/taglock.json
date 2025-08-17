@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"taglock": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"Taglock": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"taglock"
+		]
+	],
+	"rewards": {
+		"function": "witchpack:items/taglock"
+	}
+}

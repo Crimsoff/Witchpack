@@ -1,0 +1,1 @@
+give @p painting[entity_data={id:"minecraft:painting",variant:"witchpack:haunted_mirror",Tags:["c_wp_mirror_d_init"]},item_name='Haunted Mirror',lore=[{"color":"white","italic":false,"text":"Contains a Demon."}],rarity="rare"] 1

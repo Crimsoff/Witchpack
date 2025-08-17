@@ -1,0 +1,1 @@
+$data modify entity @e[type=item,tag=c_wp_waystone_init,sort=nearest,limit=1] Item.components."minecraft:lore" set value ['$(x), $(y), $(z)','Dimension: $(dimension)']

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SGS",
+    "SIS"
+  ],
+  "key": {
+    "I": [
+      "minecraft:iron_ingot"
+    ],
+    "S": [
+      "minecraft:stick"
+    ],
+    "G": [
+      "minecraft:glass"
+    ]
+  },
+  "result": {
+    "id": "minecraft:painting",
+    "components": {
+      "minecraft:item_name": "Mirror",
+      "minecraft:lore": [
+        {
+          "text": "Perhaps a Demon can be trapped within.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:entity_data": "{\"id\":\"minecraft:painting\",\"variant\":\"witchpack:mirror\",Tags:[c_wp_mirror_init]}"
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:witch_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:enchanted_count_increase",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 1
+                },
+                "enchantment": "minecraft:looting"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:entity_data": {
+                    "id": "minecraft:marker",
+                    "Tags": [
+                      "c_wp_mandrake_seeds_init"
+                    ]
+                  },
+                  "minecraft:item_model": "witchpack:mandrake_seeds",
+                  "minecraft:item_name": "Mandrake Seeds"
+                }
+              }
+            ]
+          }
+        ],
+        "conditions": []
+      }
+    ],
+    "functions": []
+  }

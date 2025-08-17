@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "CCC",
+      "C C",
+      "W W"
+    ],
+    "key": {
+      "C": [
+        "minecraft:copper_ingot"
+      ],
+      "W": [
+        "minecraft:black_wool"
+      ]
+    },
+    "result": {
+      "id": "minecraft:music_disc_creator",
+      "components": {
+        "minecraft:item_name": "Earmuffs",
+        "minecraft:item_model": "witchpack:earmuffs",
+        "!minecraft:jukebox_playable": {},
+        "minecraft:custom_model_data": {
+          "colors": [
+            1908001
+          ]
+        },
+        "minecraft:rarity": "uncommon",
+        "minecraft:damage": 0,
+        "minecraft:max_damage": 124,
+        "minecraft:attribute_modifiers": [
+            {
+              "type": "minecraft:armor",
+              "id": "armor",
+              "amount": 2,
+              "operation": "add_value",
+              "slot": "head"
+            }
+          ],
+        "minecraft:lore": [
+          {
+            "text": "Causes sounds to end early",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "minecraft:equippable": {
+          "slot": "head",
+          "equip_sound": "minecraft:block.wool.place",
+          "dispensable": true,
+          "swappable": true,
+          "damage_on_hurt": true
+        },
+        "minecraft:custom_data": {
+          "Deaf": true
+        }
+      },
+      "count": 1
+    }
+  }
