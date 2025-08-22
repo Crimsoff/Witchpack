@@ -5,7 +5,7 @@ execute as @e[type=minecraft:item_display,tag=aj.wp_cauldron.root] at @s run fun
 execute as @e[type=shulker,tag=c_wp_cauldron_block] if predicate witchpack:deadornovehicle run kill @s
 
 # Curses
-execute as @a[tag=c_wp_curse] run function witchpack:player/curses
+execute as @e[tag=c_wp_curse] run function witchpack:curses
 
 # Initialize mobs
 execute as @e[type=zombie,tag=!c_wp_zombie_init] run function witchpack:mobs/zombie_init

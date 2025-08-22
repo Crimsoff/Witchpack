@@ -1,4 +1,4 @@
-execute if entity @s[tag=c_wp_curse_weakness] run attribute @s minecraft:attack_damage modifier add witchpack:curse_weakness -4 add_value
+execute if entity @s[tag=c_wp_curse_weakness] run attribute @s minecraft:attack_damage modifier add witchpack:curse_weakness -2 add_value
 
 execute if entity @s[tag=c_wp_curse_slowness] run attribute @s minecraft:movement_speed modifier add witchpack:curse_slowness -0.15 add_multiplied_total
 
