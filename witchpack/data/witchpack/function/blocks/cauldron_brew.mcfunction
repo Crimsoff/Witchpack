@@ -59,3 +59,4 @@ execute if entity @s[tag=!c_wp_brew_haste] if data entity @n[type=item,distance=
 execute if entity @s[tag=!c_wp_brew_resistance] if data entity @n[type=item,distance=..0.5] {Item:{id:"minecraft:turtle_scute"}} run function witchpack:brewing_recipes/resistance
 execute if entity @s[tag=!c_wp_brew_health_boost] if data entity @n[type=item,distance=..0.5] {Item:{id:"minecraft:armadillo_scute"}} run function witchpack:brewing_recipes/health_boost
 execute if entity @s[tag=!c_wp_brew_glowing] if data entity @n[type=item,distance=..0.5] {Item:{id:"minecraft:glowstone"}} run function witchpack:brewing_recipes/glowing
+execute if entity @s[tag=!c_wp_brew_hunger] if data entity @n[type=item,distance=..0.5] {Item:{id:"minecraft:rotten_flesh"}} run function witchpack:brewing_recipes/hunger
