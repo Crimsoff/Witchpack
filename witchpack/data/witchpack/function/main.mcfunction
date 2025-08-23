@@ -39,13 +39,13 @@ execute as @e[type=marker,tag=c_wp_chalk_cleaner] at @s unless entity @e[type=gl
 execute as @e[type=glow_item_frame,tag=c_wp_ritual_active] at @s run function witchpack:rituals/active
 
 # Track non-mirror dimension position
-execute as @a at @s unless dimension witchpack:mirror run function witchpack:dimension/storelastdimension
-execute as @a at @s unless dimension witchpack:mirror store result score @s c_wp_last_x run data get entity @s Pos[0]
-execute as @a at @s unless dimension witchpack:mirror store result score @s c_wp_last_y run data get entity @s Pos[1]
-execute as @a at @s unless dimension witchpack:mirror store result score @s c_wp_last_z run data get entity @s Pos[2]
+#execute as @a at @s unless dimension witchpack:mirror run function witchpack:dimension/storelastdimension
+#execute as @a at @s unless dimension witchpack:mirror store result score @s c_wp_last_x run data get entity @s Pos[0]
+#execute as @a at @s unless dimension witchpack:mirror store result score @s c_wp_last_y run data get entity @s Pos[1]
+#execute as @a at @s unless dimension witchpack:mirror store result score @s c_wp_last_z run data get entity @s Pos[2]
 
 # Mirror gen
-execute in witchpack:mirror as @e[type=marker,tag=c_wp_mirror_gen] at @s run function witchpack:dimension/generatemirror2
+#execute in witchpack:mirror as @e[type=marker,tag=c_wp_mirror_gen] at @s run function witchpack:dimension/generatemirror2
 
 
 
