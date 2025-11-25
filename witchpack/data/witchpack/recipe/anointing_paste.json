@@ -26,7 +26,7 @@
       "minecraft:custom_data": {
         "MakeCauldron": true
       },
-      "minecraft:item_model": "minecraft:cyan_dye",
+      "minecraft:item_model": "witchpack:anointing_paste",
       "minecraft:item_name": "Anointing Paste",
       "minecraft:rarity": "uncommon"
     },
