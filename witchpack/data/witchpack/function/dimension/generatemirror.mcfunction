@@ -1,2 +1,0 @@
-execute align xyz run summon minecraft:marker ~0.5 ~-0.5 ~0.5 {Tags:["c_wp_mirror_gen"]}
-execute align xyz as @e[type=marker,tag=c_wp_mirror_gen] if dimension overworld at @s in witchpack:mirror run tp @s ~ 5 ~

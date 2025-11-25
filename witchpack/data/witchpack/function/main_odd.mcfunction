@@ -10,18 +10,6 @@ execute as @e[tag=c_wp_curse] run function witchpack:curses
 # Initialize mobs
 execute as @e[type=zombie,tag=!c_wp_zombie_init] run function witchpack:mobs/zombie_init
 
-# Mirror - Disabled until I make an update to obtain the item
-#execute as @e[type=painting,tag=c_wp_mirror_init] at @s run function witchpack:mirror/mirror_init
-#execute as @e[type=minecraft:marker,tag=c_wp_mirror_marker] at @s run function witchpack:mirror/check_normal
-
-#execute as @e[type=painting,tag=c_wp_mirror_d_init] at @s run function witchpack:mirror/mirror_d_init
-#execute as @e[type=minecraft:marker,tag=c_wp_mirror_d_marker] at @s run function witchpack:mirror/check_demon
-
-#execute as @e[type=painting,tag=c_wp_mirror_e_init] at @s run function witchpack:mirror/mirror_e_init
-#execute as @e[type=minecraft:marker,tag=c_wp_mirror_e_marker] at @s run function witchpack:mirror/check_exorcised
-
-#execute as @e[type=minecraft:painting,tag=c_wp_mirror_e] at @s run function witchpack:mirror/mirror_e
-
-#execute as @e[type=minecraft:painting,tag=c_wp_mirror_d] at @s run function witchpack:mirror/mirror_d
-
-#scoreboard players remove @e[scores={c_wp_into_mirror=1..}] c_wp_into_mirror 2
+# Clean up invalid brooms?
+execute as @e[type=item_display,tag=c_wp_broom_display] unless predicate witchpack:has_passenger run kill @s
+execute as @e[type=bat,tag=c_wp_broom_hb2] unless predicate witchpack:riding run kill @s

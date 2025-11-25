@@ -1,1 +1,0 @@
-$execute in $(dimension) run tp @s $(X) $(Y) $(Z)

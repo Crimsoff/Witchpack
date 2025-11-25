@@ -13,3 +13,4 @@ kill @e[tag=c_wp_thorns_init]
 kill @e[tag=c_wp_thorns]
 kill @e[tag=c_wp_thorns_full]
 kill @e[tag=c_wp_mandrake]
+execute as @e[type=minecraft:item_display,tag=aj.wp_cauldron.root] run function animated_java:wp_cauldron/remove/this

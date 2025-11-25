@@ -25,11 +25,6 @@ scoreboard objectives add c_wp_x dummy "X Position"
 scoreboard objectives add c_wp_y dummy "Y Position"
 scoreboard objectives add c_wp_z dummy "Z Position"
 
-# Track last non-mirror dimension position
-scoreboard objectives add c_wp_last_x dummy
-scoreboard objectives add c_wp_last_y dummy
-scoreboard objectives add c_wp_last_z dummy
-
 # Track linked pos
 scoreboard objectives add c_wp_link_x dummy "Linked X Position"
 scoreboard objectives add c_wp_link_y dummy "Linked Y Position"
@@ -76,12 +71,6 @@ scoreboard objectives add c_wp_const dummy
 scoreboard players set #2 c_wp_const 2
 scoreboard players set #10 c_wp_const 10
 scoreboard players set #20 c_wp_const 20
-
-# Mirror stuff
-scoreboard objectives add c_wp_into_mirror dummy
-
-# Triggers
-scoreboard objectives add c_wp_force_exit_mirror trigger
 
 # Cauldron Stuff
 scoreboard objectives add c_wp_color dummy

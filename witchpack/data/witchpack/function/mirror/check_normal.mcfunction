@@ -1,2 +1,0 @@
-execute unless entity @e[type=minecraft:painting,sort=nearest,distance=..0.1] run data modify entity @n[type=item,nbt={Item:{id:"minecraft:painting"}},distance=..1] Item.components set value {"entity_data":{id:"minecraft:painting",variant:"witchpack:mirror",Tags:["c_wp_mirror_init"]},"item_name":'Mirror',"lore":['{"color":"white","italic":false,"text":"Perhaps a Demon can be trapped within."}']}
-execute unless entity @e[type=minecraft:painting,sort=nearest,distance=..0.1] run kill @s
