@@ -1,2 +1,2 @@
-function animated_java:wp_mandrake/summon {args: {}}
+function aj:wp_mandrake/summon {args: {}}
 kill @s

@@ -39,4 +39,4 @@ tag @s remove c_wp_brew_glowing
 
 scoreboard players set @s c_wp_capacity 1
 data modify entity @s data.brew set value []
-function animated_java:wp_cauldron/animations/water_empty/play
+function aj:wp_cauldron/animations/water_empty/play

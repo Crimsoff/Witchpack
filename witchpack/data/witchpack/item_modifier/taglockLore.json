@@ -1,9 +1,8 @@
 {
-	"function": "minecraft:set_components",
+	"type": "minecraft:set_components",
 	"components": {
 		"minecraft:lore": [
 			"Filled Taglock"
 		]
-	},
-	"conditions": []
+	}
 }

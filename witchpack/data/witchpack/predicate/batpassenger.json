@@ -1,1 +1,9 @@
-{"condition":"minecraft:entity_properties","entity":"this","predicate":{"passenger":{"type":"minecraft:bat"}}}
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"minecraft:passenger": {
+			"minecraft:entity_type": "minecraft:bat"
+		}
+	}
+}

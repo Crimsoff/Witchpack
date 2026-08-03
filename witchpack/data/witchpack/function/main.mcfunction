@@ -12,8 +12,7 @@ scoreboard players operation .c_wp_gametime_even c_wp_gametime %= #2 c_wp_const
 
 # Every Tick
 # Mobs
-scoreboard players add @e[type=minecraft:item_display,tag=c_wp_mandrake_temp] c_wp_count 1
-execute as @e[type=item_display,tag=c_wp_mandrake_temp] if score @s c_wp_count matches 4.. run kill @s
+
 
 # Crops
 execute as @e[type=item_display,tag=c_wp_mandrake_plant] at @s run function witchpack:crops/mandrake

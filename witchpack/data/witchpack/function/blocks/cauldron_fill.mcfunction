@@ -9,4 +9,4 @@ execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle run tag
 execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle run scoreboard players set @s c_wp_capacity 1
 execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle run scoreboard players set @s c_wp_color 16777215
 execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle on passengers if entity @s[tag=aj.wp_cauldron.display_node.water] run data modify entity @s item.components."minecraft:dyed_color" set value 4159204
-execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle run function animated_java:wp_cauldron/animations/water_full/play
+execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle run function aj:wp_cauldron/animations/water_full/play

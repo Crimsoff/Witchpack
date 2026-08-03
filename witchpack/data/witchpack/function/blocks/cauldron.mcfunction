@@ -1,4 +1,4 @@
-execute if predicate witchpack:nointeractpassenger run function animated_java:wp_cauldron/remove/this
+execute if predicate witchpack:nointeractpassenger run function aj:wp_cauldron/remove/this
 tag @s remove c_wp_cauldron_on
 execute if block ~ ~-1 ~ #campfires run tag @s add c_wp_cauldron_on
 execute if block ~ ~-1 ~ #fire run tag @s add c_wp_cauldron_on

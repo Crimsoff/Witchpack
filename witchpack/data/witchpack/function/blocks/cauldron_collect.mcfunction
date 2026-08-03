@@ -11,4 +11,4 @@ execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle positio
 execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle positioned ~ ~1 ~ run tag @n[type=item,tag=c_wp_brew_init] remove c_wp_brew_init
 execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle at @s run function witchpack:brewing_recipes/clear_cauldron
 
-execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle run function animated_java:wp_cauldron/animations/water_empty/play
+execute as @n[type=interaction,tag=c_wp_cauldron_interaction] on vehicle run function aj:wp_cauldron/animations/water_empty/play
