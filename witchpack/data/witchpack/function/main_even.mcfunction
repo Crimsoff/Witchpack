@@ -1,3 +1,5 @@
+execute as @e[type=!#witchpack:immovable,tag=!c_wp_uuid_set] run function witchpack:setuuid
+
 # Spawn Egg
 execute as @e[type=marker,tag=c_wp_mandrake_init] at @s run function witchpack:mobs/mandrake_spawnegg
 execute as @e[type=marker,tag=c_wp_cauldron_spawn] at @s run function witchpack:blocks/cauldron_spawnegg

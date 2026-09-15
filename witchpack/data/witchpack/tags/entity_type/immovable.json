@@ -9,6 +9,8 @@
       "minecraft:interaction",
       "minecraft:painting",
       "minecraft:leash_knot",
-      "minecraft:cushion"
+      "minecraft:cushion",
+      "minecraft:text_display",
+      "minecraft:ominous_item_spawner"
     ]
   }

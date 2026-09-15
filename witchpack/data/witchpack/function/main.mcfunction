@@ -1,6 +1,5 @@
 # Initialize entities
 execute as @a unless score @s c_wp_version = .c_wp_current_version c_wp_version run function witchpack:player/player_init
-execute as @e[type=!#witchpack:immovable,tag=!c_wp_uuid_set] run function witchpack:setuuid
 
 # Get game time
 execute store result score .c_wp_gametime_t c_wp_gametime run time query gametime
@@ -10,15 +9,12 @@ scoreboard players operation .c_wp_gametime_s c_wp_gametime /= #20 c_wp_const
 scoreboard players operation .c_wp_gametime_even c_wp_gametime = .c_wp_gametime_t c_wp_gametime
 scoreboard players operation .c_wp_gametime_even c_wp_gametime %= #2 c_wp_const
 
-# Every Tick
-# Mobs
-
+## Every Tick
 
 # Crops
 execute as @e[type=item_display,tag=c_wp_mandrake_plant] at @s run function witchpack:crops/mandrake
 
 # Items
-execute as @a if items entity @s armor.head *[minecraft:custom_data={Deaf:1b}] at @s run function witchpack:items/earmuffs
 
 # Broom stuff
 execute as @e[type=minecraft:marker,tag=c_wp_broom_init] at @s run function witchpack:broom/init_broom

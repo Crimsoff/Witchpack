@@ -39,7 +39,7 @@
           ],
         "minecraft:lore": [
           {
-            "text": "Causes sounds to end early",
+            "text": "Makes one immune to mandrake scream damage",
             "color": "white",
             "italic": false
           }
